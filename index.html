@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chronosoul</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #000;
+    overflow-x: hidden;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .desktop { display: block; }
+  .mobile  { display: none; }
+  @media (max-width: 768px) {
+    .desktop { display: none; }
+    .mobile  { display: block; }
+  }
+</style>
+</head>
+<body>
+  <img class="desktop" src="desktop.png" alt="Chronosoul">
+  <img class="mobile"  src="mobile.png"  alt="Chronosoul">
+</body>
+</html>
